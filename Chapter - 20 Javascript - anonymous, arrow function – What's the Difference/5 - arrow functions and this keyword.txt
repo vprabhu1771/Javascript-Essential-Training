@@ -1,0 +1,27 @@
+// settimeout function will delay execution of code
+
+const person = {
+
+    talk() {
+
+        setTimeout(function (){
+
+            console.log("this", this);
+
+        }, 1000);
+    },
+
+    walk() {
+
+        setTimeout( () => {
+
+            console.log("this", this);
+
+        }, 1000);
+    }
+
+};
+
+person.talk();
+
+person.walk();

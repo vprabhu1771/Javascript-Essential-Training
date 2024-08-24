@@ -1,0 +1,19 @@
+replace(searchValue, replaceValue): Searches a string for a specified value or a regular expression, and returns a new string where the specified values are replaced.
+
+Here's an example of how to use the `search` method in JavaScript:
+
+
+const str = "The quick brown fox jumps over the lazy dog";
+const position = str.search(/fox/);
+console.log(position); 
+
+Output
+16
+
+
+In this example:
+
+- We have a string `str` containing the text "The quick brown fox jumps over the lazy dog".
+- We use the `search` method with a regular expression `/fox/` to find the position of the substring "fox" within the string.
+- The method returns the index of the first match, which is 16 (0-based indexing).
+- So, the output will be 16. If the substring "fox" were not found, `search` would return -1.

@@ -1,0 +1,9 @@
+This means that we can do this within the same scope and won't get an error.
+
+var greeter = "hey hi";
+var greeter = "say Hello instead";
+
+and this also
+
+var greeter = "hey hi";
+greeter = "say Hello instead";

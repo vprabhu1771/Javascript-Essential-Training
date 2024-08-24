@@ -1,0 +1,10 @@
+toLowerCase(): Returns the calling string value converted to lowercase.
+
+const str = "HELLO, WORLD!";
+
+const lowerCaseStr = str.toLowerCase();
+
+console.log(lowerCaseStr);
+
+Output
+hello, world!

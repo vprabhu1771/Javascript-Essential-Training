@@ -1,0 +1,20 @@
+replace(searchValue, replaceValue): Returns a new string with some or all matches of a pattern replaced by a replacement.
+
+Here's an example of how to use the `replace` method in JavaScript:
+
+const str = "Hello, World!";
+
+const newStr = str.replace("World", "JavaScript");
+
+console.log(newStr);
+
+Output
+Hello, JavaScript!
+
+
+In this example:
+
+- We have a string `str` containing the text "Hello, World!".
+- We use the `replace` method to replace the substring "World" with "JavaScript".
+- The method returns a new string where the replacement has been made, which is assigned to the variable `newStr`.
+- So, the output will be "Hello, JavaScript!".

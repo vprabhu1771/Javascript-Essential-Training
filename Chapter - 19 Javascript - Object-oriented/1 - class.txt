@@ -1,0 +1,44 @@
+const person = {
+    name: "",
+
+    // anonymous function or method definition
+    walk: function () {
+        console.log(this.name + " is walking");
+    },
+
+    // ES6 Syntax method definition
+    talk() {
+        console.log(this.name + " is talking");
+    }
+}
+
+// access properties using dot notation
+person.name = "prabhu";
+
+console.log(person.name);
+
+// access method using dot notation
+person.walk();
+
+person.talk();
+
+// access properties using bracket notation
+person['name'] = "rajesh";
+
+console.log(person['name']);
+
+
+// get input field reference
+const targetMember = document.getElementById("full_name");
+
+// display input field info
+console.log(targetMember);
+
+// display input field value
+console.log(targetMember.value);
+
+// assign input field value to person object
+person['name'] = targetMember.value;
+
+// display output with input field value
+person.walk()

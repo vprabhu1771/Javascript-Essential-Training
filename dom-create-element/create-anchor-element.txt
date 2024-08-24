@@ -1,0 +1,14 @@
+window.onload = function()
+{
+    
+    
+    const google_tag = document.createElement('a');
+
+    google_tag.innerHTML = "Go to Google";
+
+    google_tag.setAttribute('href','https://www.google.com/');
+
+    document.body.appendChild(google_tag);
+
+    
+}

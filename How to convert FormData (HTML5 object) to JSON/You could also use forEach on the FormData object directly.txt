@@ -1,0 +1,21 @@
+window.onload = function()
+{
+    console.log("Hello");
+
+    var login_form = new FormData();
+
+    login_form.append("usr","prabhu");
+
+    login_form.append("pass", 1234);
+
+    var output = document.getElementById('app');
+
+    var object = {};
+
+    login_form.forEach(function(value, key){
+        object[key] = value;
+    });
+    var json = JSON.stringify(object);
+
+    output.innerText = json;
+}

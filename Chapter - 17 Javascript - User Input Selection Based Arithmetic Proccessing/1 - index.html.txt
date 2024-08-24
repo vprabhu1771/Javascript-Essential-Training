@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js"></script>
+</head>
+<body>
+    
+    <input type="text" id="x" placeholder="Enter x value">
+
+    <br>
+    <br>
+
+    <input type="text" id="y" placeholder="Enter y value">
+
+    <br>
+    <br>    
+
+    <input type="text" id="result1">
+
+    <p id="result2"></p>
+
+    <input type="button" id="addition_button" value="+">
+
+    <input type="button" id="subtraction_button" value="-">
+        
+    <input type="button" id="multiplication_button" value="*">
+        
+    <input type="button" id="division_button" value="/">
+        
+    <input type="button" id="modulus_button" value="%">
+    
+</body>
+</html>

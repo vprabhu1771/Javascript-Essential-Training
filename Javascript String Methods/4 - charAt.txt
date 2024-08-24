@@ -1,0 +1,9 @@
+charAt(index): Returns the character at the specified index.
+
+const str = "Hello, World!";
+
+// Accessing individual characters using charAt()
+console.log(str.charAt(0));
+
+Output: 
+H

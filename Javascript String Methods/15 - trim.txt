@@ -1,0 +1,18 @@
+trim(): Removes whitespace from both ends of a string.
+
+Here's an example of how to use the `trim` method in JavaScript:
+
+const str = "   Hello, World!   ";
+const trimmedStr = str.trim();
+console.log(trimmedStr);
+
+Output
+"Hello, World!"
+
+
+In this example:
+
+- We have a string `str` containing the text "   Hello, World!   " with leading and trailing whitespace.
+- We use the `trim` method to remove the whitespace from both ends of the string.
+- The method returns a new string with the whitespace removed.
+- So, the output will be "Hello, World!".

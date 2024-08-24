@@ -1,0 +1,1 @@
+Variables declared with the const maintain constant values. const declarations share some similarities with let declarations.

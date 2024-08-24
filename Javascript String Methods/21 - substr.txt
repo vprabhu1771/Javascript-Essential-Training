@@ -1,0 +1,1 @@
+substr(start, length): Returns the characters in a string beginning at the specified location through the specified number of characters.

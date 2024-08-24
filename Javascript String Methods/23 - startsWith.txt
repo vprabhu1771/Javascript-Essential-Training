@@ -1,0 +1,58 @@
+startsWith(searchString, position): Checks whether a string starts with the specified characters.
+
+Here's an example of how to use the `startsWith` method in JavaScript:
+
+const str = "Hello, World!";
+const result1 = str.startsWith("Hello");
+const result2 = str.startsWith("World");
+
+console.log(result1);
+
+Output
+true
+
+console.log(result2);
+
+Output
+false
+
+
+In this example:
+
+- We have a string `str` containing the text "Hello, World!".
+- We use the `startsWith` method to check if the string starts with the substring "Hello".
+- `result1` will be `true` because the string does indeed start with "Hello".
+- We also check if the string starts with the substring "World".
+- `result2` will be `false` because "World" is not at the start of the string.
+
+Here's another example using the `position` parameter:
+
+
+const str = "Hello, World!";
+const result = str.startsWith("World", 7);
+console.log(result);
+
+Output
+true
+
+
+In this example:
+
+- We use the `startsWith` method to check if the string starts with the substring "World" at position 7.
+- The method returns `true` because the substring "World" starts at index 7 in the string "Hello, World!".
+
+Here's one more example with a different starting position:
+
+
+const str = "The quick brown fox";
+const result = str.startsWith("quick", 4);
+console.log(result);
+
+Output
+true
+
+
+In this example:
+
+- We check if the string starts with the substring "quick" at position 4.
+- The method returns `true` because "quick" starts at index 4 in the string "The quick brown fox".

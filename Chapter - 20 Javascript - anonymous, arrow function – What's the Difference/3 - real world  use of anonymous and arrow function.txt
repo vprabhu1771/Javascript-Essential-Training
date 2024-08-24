@@ -1,0 +1,33 @@
+// array of objects
+const jobs = [
+    {
+        id: 1,
+        job: "backend developer",
+        isActive: true,
+    },
+    {
+        id: 2,
+        job: "frontend developer",
+        isActive: true,
+    },
+    {
+        id: 3,
+        job: "android developer",
+        isActive: false,
+    },
+];
+
+// we want get only active jobs using anonymous function
+
+const activeJobs1 = jobs.filter(function (job) {
+    return job.isActive;
+});
+
+console.log(activeJobs1)
+
+
+// we want get only active jobs using arrow function
+
+const activeJobs2 = jobs.filter( job => job.isActive );
+
+console.log(activeJobs2)

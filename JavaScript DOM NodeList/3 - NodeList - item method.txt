@@ -1,0 +1,31 @@
+NodeList.item()
+
+    Returns an item in the list by its index, or null if the index is out-of-bounds.
+
+    An alternative to accessing nodeList[i] (which instead returns  undefined when i is out-of-bounds). This is mostly useful for non-JavaScript DOM implementations.
+
+
+HTML
+
+<p>Good Morning</p>
+
+<p>Good Afternoon</p>
+
+<p>Good Night</p>
+
+<p>Good Evening</p>
+
+
+JS
+
+window.onload = function()
+{
+    const parent = document.querySelectorAll('p');
+
+    console.log(parent.item(0));
+
+    // or
+
+    console.log(parent.item(0).textContent);
+
+}

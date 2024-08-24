@@ -1,0 +1,28 @@
+NodeList.keys()
+
+    Returns an iterator, allowing code to go through all the keys of the key/value pairs contained in the collection. (In this case, the keys are numbers starting from 0.)
+
+
+
+HTML
+
+<p>Good Morning</p>
+
+<p>Good Afternoon</p>
+
+<p>Good Night</p>
+
+<p>Good Evening</p>
+
+
+JS
+
+window.onload = function()
+{
+    const parent = document.querySelectorAll('p');
+
+    for(var key of parent.keys())
+    {
+        console.log(key);
+    }
+}

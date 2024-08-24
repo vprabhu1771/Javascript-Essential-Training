@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js"></script>
+</head>
+<body>
+    
+    <input type="text" id="name" placeholder="enter your name">
+
+    <br>
+    <br>
+
+    <input type="text" id="result1">
+
+    <br>
+
+    <p id="result2"></p>
+
+    <br>
+
+    <input type="button" value="Uppercase" id="uppercase_process">
+    
+</body>
+</html>

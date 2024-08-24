@@ -1,0 +1,28 @@
+NodeList.forEach()
+
+    Executes a provided function once per NodeList element, passing the element as an argument to the function.
+
+
+
+
+HTML
+
+<p>Good Morning</p>
+
+<p>Good Afternoon</p>
+
+<p>Good Night</p>
+
+<p>Good Evening</p>
+
+
+JS
+
+window.onload = function()
+{
+    const parent = document.querySelectorAll('p');
+
+    parent.forEach(function(el){
+        console.log(el.textContent);
+    })
+}

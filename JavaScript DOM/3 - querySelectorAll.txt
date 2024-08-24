@@ -1,0 +1,27 @@
+For example, the DOM specifies that the querySelectorAll method in this code snippet must return a list of all the <p> elements in the document:
+
+
+HTML
+
+<p>Good Morning</p>
+
+<p>Good Afternoon</p>
+
+<p>Good Night</p>
+
+<p>Good Evening</p>
+
+
+JS
+
+window.onload = function()
+{
+    const paragraphs = document.querySelectorAll("p");
+    
+
+    console.log(paragraphs);
+}
+
+Output
+
+NodeList(4) [ p, p, p, p ]

@@ -1,0 +1,10 @@
+toUpperCase(): Returns the calling string value converted to uppercase.
+
+const str = "Hello, World!";
+
+const upperCaseStr = str.toUpperCase();
+
+console.log(upperCaseStr);
+
+Output
+HELLO, WORLD!

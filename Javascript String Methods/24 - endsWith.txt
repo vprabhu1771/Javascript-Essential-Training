@@ -1,0 +1,59 @@
+endsWith(searchString, length): Checks whether a string ends with the specified characters.
+
+Here's an example of how to use the `endsWith` method in JavaScript:
+
+
+const str = "Hello, World!";
+const result1 = str.endsWith("World!");
+const result2 = str.endsWith("Hello");
+
+console.log(result1);
+
+Output
+true
+
+console.log(result2);
+
+Output
+false
+
+
+In this example:
+
+- We have a string `str` containing the text "Hello, World!".
+- We use the `endsWith` method to check if the string ends with the substring "World!".
+- `result1` will be `true` because the string does indeed end with "World!".
+- We also check if the string ends with the substring "Hello".
+- `result2` will be `false` because "Hello" is not at the end of the string.
+
+Here's another example using the `length` parameter:
+
+
+const str = "Hello, World!";
+const result = str.endsWith("Hello", 5);
+console.log(result);
+
+Output
+true
+
+
+In this example:
+
+- We use the `endsWith` method to check if the string ends with the substring "Hello" when considering only the first 5 characters of the string.
+- The method returns `true` because, when considering only the first 5 characters ("Hello"), the string does indeed end with "Hello".
+
+Here's one more example:
+
+
+const str = "The quick brown fox";
+const result = str.endsWith("brown", 15);
+console.log(result);
+
+Output
+true
+
+
+In this example:
+
+- We check if the string ends with the substring "brown" when considering the first 15 characters of the string.
+- The method returns `true` because the substring "brown" ends at index 15 in the string "The quick brown fox".

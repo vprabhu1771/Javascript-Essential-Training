@@ -1,0 +1,31 @@
+window.onload = function()
+{
+
+    const add_tag = document.getElementById('add');
+
+
+    add_tag.addEventListener('click', function(){
+
+        const x_tag = document.getElementById('x').value;
+
+        const y_tag = document.getElementById('y').value;
+
+        
+        const result_tag = document.getElementById('result');
+
+        result_tag.innerHTML = "x = " + x_tag;
+
+        result_tag.innerHTML += "<br>"; 
+
+        result_tag.innerHTML += "<br>"; 
+
+        result_tag.innerHTML += " y = " + y_tag;
+
+        result_tag.innerHTML += "<br>"; 
+
+        result_tag.innerHTML += "<br>"; 
+
+        result_tag.innerHTML += parseInt(x_tag) / parseInt(y_tag); 
+
+    });
+}

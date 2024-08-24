@@ -1,0 +1,9 @@
+concat(str1, str2, ...): Combines two or more strings.
+
+let str1 = "Hello, ";
+let str2 = "world!";
+let combinedString = str1.concat(str2);
+console.log(combinedString);
+
+Output: 
+Hello, world!

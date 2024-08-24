@@ -1,0 +1,51 @@
+substring(start, end): Returns the part of the string between the start and end indexes.
+
+Here's an example of how to use the `substring` method in JavaScript:
+
+const str = "The quick brown fox jumps over the lazy dog";
+const newStr = str.substring(4, 9);
+console.log(newStr);
+
+Output
+"quick"
+
+
+In this example:
+
+- We have a string `str` containing the text "The quick brown fox jumps over the lazy dog".
+- We use the `substring` method to extract a portion of the string, starting at index 4 and ending at index 9 (end index is not included).
+- The method returns the substring from index 4 up to, but not including, index 9.
+- So, the output will be "quick".
+
+Here's another example using `substring` with only one argument:
+
+
+const str = "The quick brown fox jumps over the lazy dog";
+const newStr = str.substring(10);
+console.log(newStr);
+
+Output
+"brown fox jumps over the lazy dog"
+
+
+In this example:
+
+- We use the `substring` method with a single argument, 10, which specifies the starting index.
+- The method returns the substring from index 10 to the end of the string.
+- So, the output will be "brown fox jumps over the lazy dog".
+
+Note that if the start index is greater than the end index, `substring` will swap them:
+
+
+const str = "The quick brown fox jumps over the lazy dog";
+const newStr = str.substring(9, 4);
+console.log(newStr);
+
+Output
+"quick"
+
+
+In this example:
+
+- Even though the start index (9) is greater than the end index (4), `substring` will swap the indices and return the substring from index 4 to 9.
+- So, the output will still be "quick".

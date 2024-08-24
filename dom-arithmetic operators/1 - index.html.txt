@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <input type="text" name="x" id="x" placeholder="Enter X Value">
+
+    <br>
+
+    <input type="text" name="y" id="y" placeholder="Enter y Value">
+
+    <br>
+
+    <input type="submit" id="add" value="add">
+
+
+    <p id="result">
+        
+    </p>
+    
+</body>
+</html>

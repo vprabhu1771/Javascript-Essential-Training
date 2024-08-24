@@ -1,0 +1,13 @@
+const colors = [
+    'red',
+    'green',
+    'blue'
+];
+
+// ES6 Template literals or Template strings
+
+const items2 = colors.map( color => `<li>${color}</li>` );
+
+console.log(items2);
+
+

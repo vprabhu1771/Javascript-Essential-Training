@@ -1,0 +1,22 @@
+accessing the elements of an array is done using the array name with square brackets 
+and a value.
+
+var odd_number = new Array(1,3,5,7,9);
+
+console.log(odd_number[0]);
+
+In every programming languages array index begin with zero, 
+to access first element of array using the array name with square brackets 
+add zero inside square brackets.
+
+odd_number[0]
+
+Note:
+you need to be careful when accessing an element of an array using index.
+if array index not available on range . javascript return undefined value.
+
+console.log(odd_number[19]);
+
+output
+undefined
+

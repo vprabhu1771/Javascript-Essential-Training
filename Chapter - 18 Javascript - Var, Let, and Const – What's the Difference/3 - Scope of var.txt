@@ -1,0 +1,36 @@
+Scope essentially means where these variables are available for use. 
+
+var declarations are globally scoped or function/locally scoped.
+
+The scope is global when a var variable is declared outside a function. 
+
+This means that any variable that is declared with var outside a function block is available for use in the whole window.
+
+var is function scoped when it is declared within a function. 
+
+This means that it is available and can be accessed only within that function.
+
+To understand further, look at the example below.
+
+
+var greeter = "hey hi";
+    
+function newFunction() {
+ var hello = "hello";
+}
+
+
+Here, greeter is globally scoped because it exists outside a function while hello is function scoped. 
+
+So we cannot access the variable hello outside of a function. So if we do this:
+
+var tester = "hey hi";
+    
+function newFunction() {
+  var hello = "hello";
+}
+
+console.log(hello); // error: hello is not defined
+
+
+We'll get an error which is as a result of hello not being available outside the function.

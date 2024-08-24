@@ -1,0 +1,11 @@
+window.onload = function()
+{
+
+    const p_tag = document.createElement('p');
+
+    p_tag.innerHTML = "Hello From Paragraph";
+
+    document.body.appendChild(p_tag);
+
+    
+}

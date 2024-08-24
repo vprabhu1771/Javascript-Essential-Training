@@ -1,0 +1,16 @@
+trimEnd() / trimRight(): Removes whitespace from the end of a string.
+
+Here's another example showing the use of `trimEnd` methods:
+
+const trimmedEndStr = str.trimEnd();
+console.log(trimmedEndStr);
+
+Output
+"   Hello, World!"
+
+
+In this example:
+
+- `trimEnd` (or `trimRight`) removes only the trailing whitespace from the string.
+- `trimmedStartStr` will be "Hello, World!   ".
+- `trimmedEndStr` will be "   Hello, World!".

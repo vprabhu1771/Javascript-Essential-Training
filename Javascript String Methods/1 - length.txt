@@ -1,0 +1,7 @@
+length: As mentioned earlier, this property returns the length of a string, which is the number of characters it contains.
+
+const str = "Hello, World!";
+console.log(str.length);
+
+Output
+13

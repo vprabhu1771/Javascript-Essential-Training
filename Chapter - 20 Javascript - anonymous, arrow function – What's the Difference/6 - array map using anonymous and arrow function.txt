@@ -1,0 +1,30 @@
+const colors = [
+    'red',
+    'green',
+    'blue'
+];
+
+
+// we need callback function to use map
+
+// job of the callback function is to transform each element in this array
+
+// callback function is called in map method each item in this array.
+
+// it takes one item at time and returns new item
+
+const items1 = colors.map(function (color) {
+
+    return '<li>' + color + '</li>';
+
+})
+
+console.log(items1);
+
+// map method return new array without modifying original array
+
+const items2 = colors.map( color => '<li>' + color + '</li>' );
+
+console.log(items2);
+
+

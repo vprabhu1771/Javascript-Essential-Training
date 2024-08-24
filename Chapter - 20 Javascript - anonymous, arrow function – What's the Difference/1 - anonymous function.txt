@@ -1,0 +1,6 @@
+// anonymous function
+const square1 = function (number) {
+    return number * number
+}
+
+console.log(square1(2));

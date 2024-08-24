@@ -1,0 +1,27 @@
+// ES6 arrow function type 1 - zero parameters
+const hello_world = () => {
+    return "Hello World"
+}
+
+console.log(hello_world());
+
+// ES6 arrow function type 2 - single parameters
+const square2 = number => {
+    return number * number
+}
+
+console.log(square2(2));
+
+
+// ES6 arrow function type 3 - single parameters and function body is single line
+const square3 = number => number * number
+
+console.log(square3(2));
+
+
+// ES6 arrow function type 4 - multiple parameters
+const addition = (x,y) => {
+    return x + y
+}
+
+console.log(addition(10,2));

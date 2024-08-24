@@ -1,0 +1,24 @@
+NodeList.length
+
+    The number of nodes in the NodeList.
+
+HTML
+
+<p>Good Morning</p>
+
+<p>Good Afternoon</p>
+
+<p>Good Night</p>
+
+<p>Good Evening</p>
+
+
+JS
+
+window.onload = function()
+{
+    const parent = document.querySelectorAll('p');
+
+    console.log(parent.length);
+
+}

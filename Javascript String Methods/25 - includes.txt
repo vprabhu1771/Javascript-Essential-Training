@@ -1,0 +1,57 @@
+includes(searchString, position): Checks whether one string contains another substring.
+
+Here's an example of how to use the `includes` method in JavaScript:
+
+
+const str = "The quick brown fox jumps over the lazy dog";
+const result1 = str.includes("quick");
+const result2 = str.includes("cat");
+
+console.log(result1);
+
+Output
+true
+
+console.log(result2);
+
+Output
+false
+
+
+In this example:
+
+- We have a string `str` containing the text "The quick brown fox jumps over the lazy dog".
+- We use the `includes` method to check if the string contains the substring "quick".
+- `result1` will be `true` because the string does indeed contain "quick".
+- We also check if the string contains the substring "cat".
+- `result2` will be `false` because "cat" is not present in the string.
+
+Here's another example using the `position` parameter:
+
+
+const str = "The quick brown fox jumps over the lazy dog";
+const result = str.includes("quick", 10);
+console.log(result);
+
+Output
+false
+
+
+In this example:
+
+- We use the `includes` method to check if the string contains the substring "quick", starting the search from position 10.
+- The method returns `false` because "quick" does not appear after position 10 in the string.
+
+Here's one more example with a different starting position:
+
+const str = "The quick brown fox jumps over the lazy dog";
+const result = str.includes("fox", 10);
+console.log(result);
+
+Output: true
+
+
+In this example:
+
+- We check if the string contains the substring "fox", starting the search from position 10.
+- The method returns `true` because "fox" appears after position 10 in the string "The quick brown fox jumps over the lazy dog".

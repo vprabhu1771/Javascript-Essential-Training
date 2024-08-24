@@ -1,0 +1,52 @@
+split(separator, limit): Splits a string into an array of substrings.
+
+Here's an example of how to use the `split` method in JavaScript:
+
+const str = "The quick brown fox jumps over the lazy dog";
+const words = str.split(" ");
+console.log(words); 
+
+Output 
+["The", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog"]
+
+
+In this example:
+
+- We have a string `str` containing the text "The quick brown fox jumps over the lazy dog".
+- We use the `split` method with a space (" ") as the separator to split the string into an array of words.
+- The method returns an array of substrings, split at each point where the separator occurs.
+- So, the output will be an array of words: `["The", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog"]`.
+
+Here's another example, splitting a string by commas:
+
+
+const csv = "apple,banana,orange,grape";
+const fruits = csv.split(",");
+console.log(fruits); 
+
+Output
+["apple", "banana", "orange", "grape"]
+
+
+In this example:
+
+- We have a string `csv` containing the text "apple,banana,orange,grape".
+- We use the `split` method with a comma (",") as the separator to split the string into an array of fruit names.
+- The method returns an array of substrings, split at each point where the comma occurs.
+- So, the output will be an array of fruits: `["apple", "banana", "orange", "grape"]`.
+
+Additionally, you can limit the number of splits by providing a second argument:
+
+
+const str = "The quick brown fox jumps over the lazy dog";
+const limitedWords = str.split(" ", 4);
+console.log(limitedWords); 
+
+Output
+["The", "quick", "brown", "fox"]
+
+
+In this example:
+
+- We use the `split` method with a space (" ") as the separator and limit the number of splits to 4.
+- The method returns an array of the first 4 words: `["The", "quick", "brown", "fox"]`.

@@ -1,0 +1,17 @@
+trimStart() / trimLeft(): Removes whitespace from the beginning of a string.
+
+Here's another example showing the use of `trimStart` methods:
+
+
+const str = "   Hello, World!   ";
+
+const trimmedStartStr = str.trimStart();
+console.log(trimmedStartStr);
+
+Output
+"Hello, World!   "
+
+
+In this example:
+
+- `trimStart` (or `trimLeft`) removes only the leading whitespace from the string.

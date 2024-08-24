@@ -1,0 +1,9 @@
+charCodeAt(index): Returns the Unicode of the character at the specified index.
+
+const str = "Hello, World!";
+
+// Accessing Unicode values of characters using charCodeAt()
+console.log(str.charCodeAt(0));
+
+Output
+72 (Unicode value of 'H')

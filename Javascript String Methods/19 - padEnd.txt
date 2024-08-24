@@ -1,0 +1,1 @@
+padEnd(targetLength, padString): Pads the current string with another string (repeated, if needed) so that the resulting string reaches the given length. The padding is applied from the end of the current string.

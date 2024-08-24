@@ -1,0 +1,29 @@
+NodeList.values()
+
+    Returns an iterator allowing code to go through all values (nodes) of the key/value pairs contained in the collection.
+
+
+
+
+HTML
+
+<p>Good Morning</p>
+
+<p>Good Afternoon</p>
+
+<p>Good Night</p>
+
+<p>Good Evening</p>
+
+
+JS
+
+window.onload = function()
+{
+    const parent = document.querySelectorAll('p');
+
+    for(var value of parent.values())
+    {
+        console.log(value.textContent);
+    }
+}

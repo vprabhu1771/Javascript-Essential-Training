@@ -1,0 +1,28 @@
+Just like var,  a variable declared with let can be updated within its scope. Unlike var, a let variable cannot be re-declared within its scope. So while this will work:
+
+let greeting = "say Hi";
+greeting = "say Hello instead";
+
+
+this will return an error:
+
+let greeting = "say Hi";
+let greeting = "say Hello instead"; // error: Identifier 'greeting' has already been declared
+
+
+However, if the same variable is defined in different scopes, there will be no error:
+
+
+let greeting = "say Hi";
+if (true) {
+ let greeting = "say Hello instead";
+ console.log(greeting); // "say Hello instead"
+}
+console.log(greeting); // "say Hi"
+
+
+Why is there no error? This is because both instances are treated as different variables since they have different scopes.
+
+This fact makes let a better choice than var. When using let, you don't have to bother if you have used a name for a variable before as a variable exists only within its scope.
+
+Also, since a variable cannot be declared more than once within a scope, then the problem discussed earlier that occurs with var does not happen.

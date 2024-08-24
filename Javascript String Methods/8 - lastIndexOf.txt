@@ -1,0 +1,8 @@
+lastIndexOf(substring, start): Returns the index within the calling String object of the last occurrence of the specified value, searching backward from fromIndex. Returns -1 if the value is not found.
+
+const str = 'Hello, world! Welcome to the world of JavaScript!';
+const lastIndex = str.lastIndexOf('world');
+console.log(lastIndex); 
+
+Output
+41

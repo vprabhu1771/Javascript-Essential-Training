@@ -1,0 +1,21 @@
+match(regexp): Returns an array containing all matches of a regular expression within the string.
+
+Here's an example of how to use the `match` method in JavaScript:
+
+const str = "The quick brown fox jumps over the lazy dog";
+
+const matches = str.match(/o/g);
+
+console.log(matches);
+
+Output
+["o", "o", "o"]
+
+
+In this example:
+
+- We have a string `str` containing the text "The quick brown fox jumps over the lazy dog".
+- We use the `match` method with a regular expression `/o/g` to find all occurrences of the letter "o" in the string.
+- The `g` flag is used to perform a global search, which means it finds all matches rather than just the first one.
+- The method returns an array containing all matches found, in this case, `["o", "o", "o"]`.
+- Each element in the array corresponds to a match found in the string.
