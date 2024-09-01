@@ -1,0 +1,10 @@
+Pre increment operator is used to increment variable value by 1 before assigning the value to the variable.
+
+var a = 10;
+
+b = ++a;
+
+console.log(b);
+
+Output
+11

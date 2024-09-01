@@ -1,0 +1,15 @@
+Post decrement operator is used to decrement variable value by 1 after assigning the value to the variable.
+
+var a = 10;
+
+b = a--;
+
+console.log(b);
+
+b = a;
+
+console.log(b);
+
+Output
+10
+9
