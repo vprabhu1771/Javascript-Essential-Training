@@ -1,0 +1,20 @@
+Perform comparison on both values
+
+var x = 10
+
+var y = 1
+
+console.log(“x = “ + x);
+
+console.log(“y = “ + y);
+
+console.log(x + “ > “ + y);
+
+console.log(x>y);
+
+output
+
+x = 10
+y = 1
+10 > 1
+true

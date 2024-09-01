@@ -1,0 +1,20 @@
+Perform comparison on both values
+
+var x = 20
+
+var y = 10
+
+console.log(“x = “ + x);
+
+console.log(“y = “ + y);
+
+console.log(x + “ != “ + y);
+
+console.log(x!=y);
+
+output
+
+x = 20
+y = 10
+20 != 10
+true
