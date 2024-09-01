@@ -1,6 +1,8 @@
 # Javascript Essential Training
  
 ## Table of Contents
+1. [JavaScript Introduction](https://github.com/vprabhu1771/Javascript-Essential-Training/tree/main/1%20-%20JavaScript%20Introduction)
+
 3. [JavaScript Arithmetic Operators](https://github.com/vprabhu1771/Javascript-Essential-Training/tree/main/3%20JavaScript%20Arithmetic%20Operators)
 
 4. [JavaScript Assignment Operators](https://github.com/vprabhu1771/Javascript-Essential-Training/tree/main/4%20JavaScript%20Assignment%20Operators)
