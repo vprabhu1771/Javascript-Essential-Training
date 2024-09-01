@@ -9,6 +9,9 @@
 
 5. [JavaScript Relational Operators](https://github.com/vprabhu1771/Javascript-Essential-Training/tree/main/5%20-%20JavaScript%20Relational%20Operators)
 
+6. [JavaScript Logical Operators](https://github.com/vprabhu1771/Javascript-Essential-Training/tree/main/6%20-%20JavaScript%20Logical%20Operators)
+
+7. [JavaScript Conditions Statements](https://github.com/vprabhu1771/Javascript-Essential-Training/tree/main/7%20-%20JavaScript%20Conditions%20Statements)
 
 14. [Javascript - User Input Lowercase Proccessing](https://github.com/vprabhu1771/Javascript-Essential-Training/tree/main/14%20Javascript%20-%20User%20Input%20Lowercase%20Proccessing)
 
