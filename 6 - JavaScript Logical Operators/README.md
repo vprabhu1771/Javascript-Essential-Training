@@ -1,0 +1,56 @@
+# 6 - JavaScript Logical Operators
+
+1. **AND**
+
+Perform comparison on both Logical Test
+
+```
+var x = 1
+
+var y = 10
+
+console.log(“x = “ + x);
+
+console.log(“y = “ + y);
+
+console.log(x + “ < “ + y + “ && “ + x + “ != “ + y);
+
+console.log(x<y&&x!=y);
+```
+
+```
+output
+
+x = 1
+y = 10
+1 < 10 && 1 != 10
+true
+```
+
+
+2. **OR**
+
+Perform comparison on both Logical Test
+
+```
+var x = 1
+
+var y = 10
+
+console.log(“x = “ + x);
+
+console.log(“y = “ + y);
+
+console.log(x + “ < “ + y + “ || “ + x + “ != “ + y);
+
+console.log(x<y||x!=y);
+```
+
+```
+output
+
+x = 1
+y = 10
+1 > 10 || 1 != 10
+true
+```
