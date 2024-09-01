@@ -1,4 +1,4 @@
-# Chapter - 16 Javascript - User Input Arithmetic Proccessing
+# 16 Javascript - User Input Arithmetic Proccessing
  
 1. `index.html`
 

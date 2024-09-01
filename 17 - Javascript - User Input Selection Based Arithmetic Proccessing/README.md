@@ -1,4 +1,4 @@
-# Chapter - 17 Javascript - User Input Selection Based Arithmetic Proccessing
+# 17 Javascript - User Input Selection Based Arithmetic Proccessing
  
 1. `index.html`
 

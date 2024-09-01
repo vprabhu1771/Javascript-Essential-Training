@@ -1,4 +1,4 @@
-# Chapter - 15 Javascript - User Input Uppercase Proccessing
+# 15 Javascript - User Input Uppercase Proccessing
  
 1. `index.html`
 

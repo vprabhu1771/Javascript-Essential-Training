@@ -1,4 +1,4 @@
-# Chapter - 14 Javascript - User Input Lowercase Proccessing
+# 14 Javascript - User Input Lowercase Proccessing
  
 1. `index.html`
 
