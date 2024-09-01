@@ -1,0 +1,23 @@
+var age = 23
+
+if(age >= 18 && age <= 100)
+{
+    console.log(“Congrats. You are eligible for bank loan”);
+
+    if (age >= 18 && age <= 22) 
+    {
+        console.log(“Car Loan also available”);
+    }
+    else
+    {
+        console.log(“Car Loan not available”);
+    }
+}
+else
+{
+    console.log(“Sorry. You are not eligible for any bank loan”);
+}
+
+Output
+Congrats. You are eligible for bank loan
+Car Loan not available

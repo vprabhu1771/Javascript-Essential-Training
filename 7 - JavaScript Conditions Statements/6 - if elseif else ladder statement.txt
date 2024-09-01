@@ -1,0 +1,17 @@
+var no = 2;
+
+if(no < 0)
+{
+    console.log(no + “ is negative no”);
+}
+else if(no > 0)
+{
+    console.log(no + “ is positive no”);
+}
+else
+{
+    console.log(no + “ is zero”);
+}
+
+Ouptut
+2 is positive no

@@ -1,0 +1,12 @@
+var age = 18
+
+if (age >= 18) 
+{
+    console.log(“Congrats. You are Eligible for voting”);    
+}else
+{
+    console.log(“Sorry. You are Not Eligible for voting”);    
+}
+
+Output
+Congrats. You are Eligible for voting

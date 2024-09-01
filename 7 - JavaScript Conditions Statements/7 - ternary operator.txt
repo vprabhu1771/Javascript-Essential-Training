@@ -1,0 +1,9 @@
+var age = 18;
+
+console.log(age >= 18 ? “Eligible” : “Not Eligible”);
+
+// ? true block : false block
+// if           else
+
+Output
+Eligible
