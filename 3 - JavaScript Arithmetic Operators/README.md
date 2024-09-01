@@ -111,7 +111,7 @@ console.log("x = " + x);
 
 console.log("y = " + y);
 
-console.log(x/y);
+console.log(x%y);
 ```
 
 ```
