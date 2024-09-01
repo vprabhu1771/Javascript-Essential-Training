@@ -1,0 +1,15 @@
+What empty variable?
+
+var x;
+
+
+Try typing these lines into your web browser’s console
+
+> x
+
+undefined
+
+They currently have no value; they are empty containers. When you enter the variable names, you should get a value of undefined 
+returned. 
+
+If they don’t exist, you’ll get an error message

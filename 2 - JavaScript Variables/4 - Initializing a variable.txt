@@ -1,0 +1,26 @@
+Initializing a variable
+
+Once you’ve declared a variable, you can initialize it with a value. 
+
+You do this by typing the variable name, followed by an equals sign (=), followed by the value you want to give it. 
+
+For example:
+
+var x = 10;
+
+var y = 20;
+
+var sum = x + y;
+
+var name = “prabhu”;
+
+
+Try going back to the console now and typing in these lines. You should see the value you’ve assigned to the variable returned in the console to confirm it, in each case. 
+
+Again, you can return your variable values by typing their name into the console — try these again:
+
+You can declare and initialize a variable at the same time, like this:
+
+var x;
+
+x = 10;
