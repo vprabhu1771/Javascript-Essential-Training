@@ -29,6 +29,6 @@
 
 15. [Javascript - User Input Uppercase Proccessing](https://github.com/vprabhu1771/Javascript-Essential-Training/tree/main/15%20-%20Javascript%20-%20User%20Input%20Uppercase%20Proccessing)
 
-16. [Javascript - User Input Arithmetic Proccessing](https://github.com/vprabhu1771/Javascript-Essential-Training/tree/main/16%20Javascript%20-%20User%20Input%20Arithmetic%20Proccessing)
+16. [Javascript - User Input Arithmetic Proccessing](https://github.com/vprabhu1771/Javascript-Essential-Training/tree/main/16%20-%20Javascript%20-%20User%20Input%20Arithmetic%20Proccessing)
 
-15. [Javascript - User Input Selection Based Arithmetic Proccessing](https://github.com/vprabhu1771/Javascript-Essential-Training/tree/main/17%20Javascript%20-%20User%20Input%20Selection%20Based%20Arithmetic%20Proccessing)
+15. [Javascript - User Input Selection Based Arithmetic Proccessing](https://github.com/vprabhu1771/Javascript-Essential-Training/tree/main/16%20-%20Javascript%20-%20User%20Input%20Arithmetic%20Proccessing)
