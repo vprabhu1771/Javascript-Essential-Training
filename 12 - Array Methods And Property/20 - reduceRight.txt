@@ -1,0 +1,36 @@
+the javascript array reduceRight method executes a reducer function on each element of the array and applies it againt an accumulator.
+
+parameters:
+
+callback -> function to execute on each element of the array. it takes in:
+
+	accumulator - it accumulates the callback’s return values it is initialvalue for the first call if supplied.
+
+
+currentValue -> the current element beign passed from the array.
+
+
+initialValue -> (optional) a value that will be passed to callback on first call. if not provided the last element acts as the 
+accumulator on the first call and callback went executes on it
+
+
+
+note:
+
+calling reduceRight on an empty array without initialValue will throw type error.
+
+
+return:
+
+returns the value resulting after reducing the array.
+
+
+notes:
+
+reduceRight -> executes the given function for each value from right to left.
+
+reduceRight -> does not change the original array.
+
+it is almost alway safer to provide initial value.
+
+

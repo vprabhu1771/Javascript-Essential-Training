@@ -1,0 +1,13 @@
+The Javascript array indexof method returns the first index of 
+occurance of an array element.
+
+window.onload = function ()
+{
+    var rgb = new Array(“RED”, “YELLOW”, “BLUE”, “RED”);
+
+    console.log(rgb.indexOf(“RED”));
+
+}
+
+output
+0

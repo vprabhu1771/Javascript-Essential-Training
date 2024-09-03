@@ -1,0 +1,14 @@
+window.onload = function ()
+{
+    var rgb = new Array(“RED”,”GREEN”,”BLUE”);
+
+    var cmyk = new Array(“CYAN”,”MAGENTA”,”YELLOW”,”BLACK”);
+
+    console.log(rgb);
+
+    console.log(cmyk);
+}
+
+Output
+Array(3) [ “RED”, “GREEN”, “BLUE” ]
+Array(4) [ “CYAN”, “MAGENTA”, “YELLOW”, “BLACK” ]

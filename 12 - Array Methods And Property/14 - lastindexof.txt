@@ -1,0 +1,14 @@
+The javascript array lastindexof method returns the last index at
+which a given element can be found in the array.
+
+window.onload = function ()
+{
+    var rgb = new Array(“RED”, “YELLOW”, “BLUE”, “RED”);
+
+    console.log(rgb.lastIndexOf(“RED”));
+
+}
+
+output
+
+3

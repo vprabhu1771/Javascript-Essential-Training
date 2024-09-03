@@ -1,0 +1,26 @@
+The Javascript array Fill method Returns an Array by filling all elements with a static value.
+
+window.onload = function ()
+{
+    var numbers = new Array(3);
+
+    console.log(“Before Fill”);
+
+    console.log(numbers);
+
+    console.log(“After Fill”);
+
+    numbers.fill(22);
+
+    console.log(numbers);
+}
+
+Output
+
+Before Fill
+
+Array(3) [ <3 empty slots> ]
+
+After Fill
+
+Array(3) [ 22, 22, 22 ]

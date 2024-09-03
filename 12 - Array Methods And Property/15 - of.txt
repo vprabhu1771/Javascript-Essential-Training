@@ -1,0 +1,12 @@
+The Javascript Array of method creates a new Array instance from the given arguments.
+
+window.onload = function ()
+{
+    var rgb = Array.of(“RED”, “YELLOW”, “BLUE”, “RED”);
+
+    console.log(rgb);
+
+}
+
+Ouput
+Array(4) [ “RED”, “YELLOW”, “BLUE”, “RED” ]

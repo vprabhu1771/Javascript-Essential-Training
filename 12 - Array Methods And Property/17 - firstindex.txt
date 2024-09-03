@@ -1,0 +1,41 @@
+The Javascript array firstindex method returns the index of the first array element. that staisfies the provided test function or else returns -1.
+
+parameters:
+
+callback -> function to execute on each element of the array. it takes in:
+
+	element - the current element of array.
+
+thisArg -> (optional) object to use as this inside callback.
+
+
+
+return:
+
+returns -> the index of the first element in the array that 
+staisfies the given function.
+
+returns ->  -1 if none of the element staisfies the function
+
+window.onload = function ()
+{
+    const team = [
+        { name : ‘bill’, age : 10},
+        { name : ‘linus’, age : 15},
+        { name : ‘alex’, age : 20},
+        { name : ‘stev’, age : 34},
+    ];
+
+    function isAdult(member)
+    {
+        return member.age >= 18;
+    }
+
+    var result = team[team.findIndex(isAdult)];
+
+    console.log(result);
+}
+
+Output
+
+Object { name: “alex”, age: 20 }

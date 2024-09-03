@@ -1,0 +1,41 @@
+the javascript array include method check if an array has a certain value among its entries.
+
+parameters:
+
+valueToFind -> the value to search for.
+
+fromIndex -> (optional) The position in the array at which to begin to search by default it is 0.
+
+
+note:
+
+for negative values, the search starts from array.length + 
+fromIndex(counting from backward) for example -1 represents the last element.
+
+
+return:
+
+return true -> if valueToFind is found anywhere with array.
+
+return false -> if valueToFind is not found anywhere with array.
+
+
+
+note:
+
+the include method is case sensitive for strings and characters values.
+
+
+window.onload = function ()
+{
+    
+	var rgb = [“RED”, “GREEN”, “BLUE”]
+
+	console.log(rgb.includes(“RED”))
+    
+}
+
+Output
+
+true
+

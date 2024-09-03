@@ -1,0 +1,28 @@
+The Javascript array unshift method adds zero or more elements to the beginning of an array and returns the new length of the array.
+
+window.onload = function ()
+{
+    var rgb = new Array();
+
+    console.log(“add single element”);
+
+    rgb.unshift(‘RED’);
+
+    console.log(rgb);
+
+    console.log(“Add Multiple Elements”);
+
+    rgb.unshift(“GREEN”,”BLUE”);
+
+    console.log(rgb);
+}
+
+Output
+
+add single element
+
+Array [ “RED” ]
+
+Add Multiple Elements
+
+Array(3) [ “GREEN”, “BLUE”, “RED” ]

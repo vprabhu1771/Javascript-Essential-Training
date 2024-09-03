@@ -1,0 +1,39 @@
+The Javascript Array splice method returns an array by changing (adding / removing) it’s elements in place.
+
+syntax:
+
+array.splice(start, deletecount, item1,....itemN)
+
+parameters:
+
+start -> the index from where the array is changed.
+
+deletecount -> (optional) the number of items to remove from start.
+
+item1, .... itemN -> (optional) the elements to add to the start index. if not specified splice will only remove elements from the array.
+
+window.onload = function ()
+{
+    var rgb = new Array(“WHITE”, “YELLOW”, “BLUE”);
+    
+    console.log(“Before Splice”);
+    
+    console.log(rgb);
+
+    console.log(“After Splice”);
+    
+    rgb.splice(0,2, “RED”, “GREEN”);
+    
+    console.log(rgb);
+
+}
+
+output
+
+Before Splice index.js:5:13
+
+Array(3) [ “WHITE”, “YELLOW”, “BLUE” ]
+
+After Splice
+
+Array(3) [ “RED”, “GREEN”, “BLUE” ]

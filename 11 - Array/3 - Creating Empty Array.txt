@@ -1,0 +1,9 @@
+window.onload = function ()
+{
+    var data = new Array();
+
+    console.log(data);
+}
+
+Output
+Array []

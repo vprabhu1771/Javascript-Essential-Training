@@ -1,0 +1,34 @@
+The Javascript array shift method removes the first element from an array and returns that element.
+
+window.onload = function ()
+{
+    var rgb = new Array(“Red”, “Green”, “Blue”);
+
+    console.log(“Before Shift”);
+
+    console.log(rgb);
+
+    console.log(“After Shift”);
+
+    rgb.shift();
+
+    console.log(rgb);
+
+    console.log(“Shift return that removed element”);
+
+    console.log(rgb.shift());
+}
+
+Output
+
+Before Shift
+
+Array(3) [ “Red”, “Green”, “Blue” ]
+
+After Shift
+
+Array [ “Green”, “Blue” ]
+
+Shift return that removed element 
+
+Green

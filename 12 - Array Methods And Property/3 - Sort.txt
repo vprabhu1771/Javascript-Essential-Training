@@ -1,0 +1,26 @@
+The Javascript array sort method sorts the items of an array.
+
+window.onload = function ()
+{
+    var alphabets = new Array(“d”,”c”,”b”,”a”);
+
+    console.log(“Original Order”);
+
+    console.log(alphabets);
+
+    console.log(“Sort Order”);
+
+    alphabets.sort();
+
+    console.log(alphabets);
+}
+
+Output
+
+Original Order
+
+Array(4) [ “d”, “c”, “b”, “a” ]
+
+Sort Order
+
+Array(4) [ “a”, “b”, “c”, “d” ]

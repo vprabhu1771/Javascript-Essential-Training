@@ -1,0 +1,26 @@
+The Javascript array reverse method returns the array in reverse order.
+
+window.onload = function ()
+{
+    var rgb = new Array(“RED”,”GREEN”,”BLUE”);
+
+   console.log(“Original Order”);
+
+   console.log(rgb);
+
+   console.log(“Reverse Order”);
+
+    rgb.reverse();
+
+   console.log(rgb);
+}
+
+Output
+
+Original Order
+
+Array(3) [ “RED”, “GREEN”, “BLUE” ]
+
+Reverse Order
+
+Array(3) [ “BLUE”, “GREEN”, “RED” ]

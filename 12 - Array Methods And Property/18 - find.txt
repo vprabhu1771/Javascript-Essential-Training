@@ -1,0 +1,42 @@
+The javascript arrray find method returns the value of the first 
+array element that satisfies the provided test function
+
+parameters:
+
+callback -> function to execute on each element of the array. it takes in:
+
+	element - the current element of array.
+
+thisArg -> (optional) object to use as this inside callback.
+
+
+return:
+
+returns -> the index of the first element in the array that 
+staisfies the given function.
+
+returns ->  returns undefined if none of the elements statisfy function
+
+window.onload = function ()
+{
+    const team = [
+        { name : ‘bill’, age : 10},
+        { name : ‘linus’, age : 15},
+        { name : ‘alex’, age : 20},
+        { name : ‘stev’, age : 34},
+    ];
+
+    function isAdult(member)
+    {
+        return member.age >= 18;
+    }
+
+    var result = team[team.findIndex(isAdult)];
+
+    console.log(result);
+}
+
+Output
+
+Object { name: “alex”, age: 20 }
+

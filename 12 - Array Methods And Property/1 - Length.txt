@@ -1,0 +1,12 @@
+The Javascript array length property returns or sets the number of 
+elements in an array.
+
+window.onload = function ()
+{
+    var rgb = new Array(“RED”,”GREEN”,”BLUE”);
+
+   console.log(rgb.length);
+}
+
+Output
+3

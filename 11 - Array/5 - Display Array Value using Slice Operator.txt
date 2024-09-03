@@ -1,0 +1,15 @@
+window.onload = function ()
+{
+    var rgb = new Array(“RED”,”GREEN”,”BLUE”);
+
+    console.log(rgb[0]);
+
+    console.log(rgb[1]);
+
+    console.log(rgb[2]);
+}
+
+Output
+RED
+GREEN
+BLUE

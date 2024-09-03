@@ -1,0 +1,50 @@
+The Javascript array join method Returns a new string by 
+concatenating all of the elements in an array.
+
+window.onload = function ()
+{
+    var alphabets = new Array(“a”,”b”, “c”, “d”);
+
+    var output;
+
+    console.log(“Before Join”);
+
+    console.log(alphabets);
+
+    console.log(“After Join”);
+
+    output = alphabets.join();
+
+    console.log(output);
+
+    console.log(“Remove Comma sepration”);
+
+    output = alphabets.join(“”);
+
+    console.log(output);
+
+    console.log(“Remove Comma sepration and Add Custom sepration”);
+
+    output = alphabets.join(“-”);
+
+    console.log(output);
+
+}
+
+Output
+
+Before Join
+
+Array(4) [ “a”, “b”, “c”, “d” ]
+
+After Join
+
+a,b,c,d
+
+Remove Comma sepration
+
+abcd
+
+Remove Comma sepration and Add Custom sepration
+
+a-b-c-d

@@ -1,0 +1,22 @@
+The Javascript array concat method returns a new array by merging two or more values / arrays.
+
+window.onload = function ()
+{
+    var rgb = new Array(“RED”,”GREEN”, “BLUE”);
+
+    var cmyk = new Array(“CYAN”, “MAGENTA”, “YELLOW”, “BLACK”);
+
+    var colors = rgb.concat(cmyk);
+
+    console.log(colors);
+
+    var colors = cmyk.concat(rgb);
+
+    console.log(colors);
+}
+
+Output
+
+Array(7) [ “RED”, “GREEN”, “BLUE”, “CYAN”, “MAGENTA”, “YELLOW”, “BLACK” ]
+
+Array(7) [ “CYAN”, “MAGENTA”, “YELLOW”, “BLACK”, “RED”, “GREEN”, “BLUE” ]

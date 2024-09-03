@@ -1,0 +1,29 @@
+The Javascript array toString method Returns a string representing the specified array and its elements.
+
+window.onload = function ()
+{
+    var alphabets = new Array(“a”, “b”, “c”, “d”);
+
+    var output;
+
+    console.log(“Before toString”);
+
+    console.log(alphabets);
+
+    console.log(“After toString”);
+
+    output = alphabets.toString();
+
+    console.log(output);
+      
+}
+
+Output
+
+Before toString
+
+Array(4) [ “a”, “b”, “c”, “d” ]
+
+After toString
+
+a,b,c,d
