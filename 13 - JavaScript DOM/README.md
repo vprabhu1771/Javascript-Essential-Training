@@ -18,7 +18,6 @@ For example, the DOM specifies that the querySelectorAll method in this code sni
 `index.html`
 
 ```
-```
 <!DOCTYPE html>
 <html lang="en">
 <head>
